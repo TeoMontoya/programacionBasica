@@ -15,26 +15,28 @@
     <section id="pet-selection">
         <h2>Choose your pet:</h2>
 
+        <!-- The 'label' tag  will help me integrate the checkbox with the input -->
         <label for="hipodoge">Hipodoge</label>
         <input type="radio" name="pet" id="hipodoge"/>
 
-        <label for="capipepo">capipepo</label>
+        <label for="capipepo">Capipepo</label>
         <input type="radio" name="pet" id="capipepo"/>
 
         <label for="ratigueya">Ratigueya</label>
         <input type="radio" name="pet" id="ratigueya"/>
 
 
-        <button>Select</button>
+        <button id="button-petSelection">Select</button>
     </section>
+
     <section id="attack-selection">
-        <p>Your pet has <span>3</span> lives</p>
-        <p>The enemy pet has <span>3</span> lives</p>
+        <p>Your pet <span id="playerPetName"></span> has <span>3</span> lives</p>
+        <p>The enemy pet <span id="enemyPetName"></span> has <span>3</span> lives</p>
 
         <p>
-            <button>Fire 🔥</button>
-            <button>Water 💧</button>
-            <button>Earth 🌱</button>
+            <button id="button-fire">Fire 🔥</button>
+            <button id="button-water">Water 💧</button>
+            <button id="button-earth">Earth 🌱</button>
         </p>
     </section>
 
@@ -43,7 +45,7 @@
     </section>
 
     <secion id="restart">
-        <button>restart</button>
+        <button id="button-restart">restart</button>
     </secion>
 
 
